@@ -1,5 +1,6 @@
 const isLoaded: boolean = false;
-
+const bot = require('./src/bot/index');
+bot.start();
 console.log(1)
 let express = require('express');
 let app = express();
